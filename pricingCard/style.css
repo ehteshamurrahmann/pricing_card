@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+
+
+
+
+.box-container {
+  height: 100vh;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.box {
+  width: 8rem;
+  height: 8rem;
+}
+
+/* .box-1{
+    background-color: antiquewhite;
+    /* align-self: flex-end; */
+
+/* .box-2{
+    background-color: rgb(241, 188, 118);
+}
+.box-3{
+    background-color: rgb(56, 48, 37);
+}
+.box-4{
+    background-color: rgb(230, 149, 44);
+}
+.box-5{
+    background-color: rgb(255, 186, 97);
+}  */
+
+
+main {
+  width: 962px;
+
+  height: 427px;
+}
+.container-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+
+  /* width: 20rem;  */
+  /* border: 2px solid red; */
+}
+
+.images {
+  background-color: rgb(162, 255, 162);
+  width: 200px;
+  height: 200px;
+  /* border: 2px solid black; */
+}
+
+.container-pricing {
+  min-height: 427px;
+  min-width: 962px;
+
+  background-color: rgba(244, 242, 253, 1);
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 32px 48px, 32px, 48px;
+
+  gap: 32px;
+}
+
+
+ 
+
+.plan {
+ height: 363px;
+   width: 262px;
+
+  padding: 32px;
+
+  border-radius: 8px;
+ 
+
+   
+
+  /* background-color: #ffbbbb; */
+}
+
+
+
+ 
+.freeplan {
+  background-color: rgba(255, 255, 255, 1);
+  /* padding: 50px; */
+  padding: 11px;
+
+  width: 262px;
+  height: 363px;
+  
+}
+
+.container-pricing    .freeplan  .free-plan-content{
+  margin-left: 3rem;
+}
+
+.container-pricing    .basicplan  .basic-plan-content{
+  margin-left: 3rem;
+}
+
+
+.container-pricing    .pro-plan  .pro-plan-content{
+  margin-left: 3rem;
+}
+
+
+.basicplan {
+  background-color: rgba(32, 40, 66, 1);
+  color: white;
+  /* padding: 50px; */
+  padding: 11px;
+
+  width: 262px;
+  height: 363px;
+}
+
+
+.container-pricing .basiplan p{
+
+  margin-top: 155px;
+}
+
+.pro-plan {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 11px;
+
+  width: 262px;
+  height: 363px;
+}
+
+.container-pricing button {
+  width: Hug (156px) px;
+  height: Hug (38px) px;
+
+  padding: 8px 30px 8px 30px;
+  gap: 10px;
+  border-radius: 50px;
+  opacity: 0px;
+
+  margin-top: 23px;
+  margin-left: 5px;
+  
+}
+
+
+
+.container-pricing img {
+  width: 22px;
+  height: 22px;
+}
+
+.container-pricing .basicplan img {
+  /* background-color: white; */
+
+  /* filter: invert(100%); */
+}
+
+.container-pricing .plan p {
+  margin-top: -24px;
+  margin-left: 28px;
+}
+
+.container-pricing .pro-plan button {
+  background-color: rgba(32, 40, 66, 1);
+  color: rgba(255, 255, 255, 1);
+
+  width: 156px;
+  height: 38px;
+
+  
+}
+
+.container-pricing .basicplan button {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(28, 28, 28, 1);
+  width: 156px;
+  height: 38px;
+
+  
+}
+
+.container-pricing .freeplan button {
+  background-color: rgba(32, 40, 66, 1);
+  color: rgba(255, 255, 255, 1);
+
+  width: 156px;
+  height: 38px;
+
+ 
+}
+
+ 
+
+.container-pricing .plan h1 {
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+.container-pricing .plan h5{
+    width: Hug (107px)px;
+    height: Hug (16px)px;
+    padding: 6px 8px 0px 8px;
+    gap: 10px;
+    opacity: 0px;
+
+    margin: -23px 0 0 -5px;
+    
+}
+
+
+
+
